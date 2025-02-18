@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Carisbrooke Castle.kmz</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<StyleMap id="msn_grn-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-diamond">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-diamond">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Carisbrooke Castle</name>
+		<description><![CDATA[<img style="max-width:500px;" src="files/caris.jpg"><img style="max-width:500px;" src="files/carisbrooke.jpg">Carisbrooke Castle is one of the most famous historic landmarks on the Isle of Wight, with a rich history dating back over 1,000 years. Originally built as a Saxon fortress, it was later developed into a Norman stronghold after the 1066 Norman Conquest. Over the centuries, the castle played a key role in defending the island from invasions, including attacks from the French and Spanish.]]></description>
+		<LookAt>
+			<longitude>-1.313373146581522</longitude>
+			<latitude>50.68725310657173</latitude>
+			<altitude>0</altitude>
+			<heading>-0.002084205574948659</heading>
+			<tilt>25.96376755087726</tilt>
+			<range>263.7140465821604</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-diamond</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.313462645708402,50.68734660101723,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

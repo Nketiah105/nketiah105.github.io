@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>St. Olave&apos;s Church.kmz</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<StyleMap id="msn_grn-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-diamond">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-diamond">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>St. Olave&apos;s Church</name>
+		<description><![CDATA[<img style="max-width:500px;" src="files/big-outside.jpg"><img style="max-width:500px;" src="files/Charles_Grant_Seely_monument_Gatcombe.jpg"> 
+
+St. Olave’s Church is a historic parish church located in Gatcombe, Isle of Wight. Built in the 13th century, it is one of the island’s oldest churches, dedicated to St. Olaf, the Viking king of Norway. The church features a simple yet elegant medieval design, with stone walls, a wooden-beamed roof, and stained-glass windows. Over the centuries, it has undergone various restorations while preserving its Gothic architectural charm.]]></description>
+		<LookAt>
+			<longitude>-1.304281689855901</longitude>
+			<latitude>50.66368831190274</latitude>
+			<altitude>0</altitude>
+			<heading>0.0009325292365886189</heading>
+			<tilt>26.35234921784101</tilt>
+			<range>566.7121642780264</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-diamond</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.304604729199466,50.66345793936155,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
