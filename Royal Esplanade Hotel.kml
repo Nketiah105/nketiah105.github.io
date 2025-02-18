@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Royal Esplanade Hotel.kmz</name>
+	<StyleMap id="msn_grn-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-diamond">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-diamond">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Royal Esplanade Hotel</name>
+		<description>The Royal Esplanade Hotel is a charming Victorian-era hotel located in Ryde, one of the Isle of Wight’s most popular seaside towns. Situated along the Esplanade, this elegant hotel offers stunning sea views, making it a favorite choice for visitors looking to enjoy a relaxing stay by the coast.
+
+History &amp; Architecture
+Built in the 19th century, the Royal Esplanade Hotel reflects classic Victorian architecture, with its grand façade, high ceilings, and traditional design. It has maintained its historic charm while incorporating modern amenities to cater to contemporary travelers.</description>
+		<LookAt>
+			<longitude>-1.158957518273862</longitude>
+			<latitude>50.73226735071025</latitude>
+			<altitude>0</altitude>
+			<heading>0.1015779138052804</heading>
+			<tilt>26.77984003561508</tilt>
+			<range>57.33328751332005</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-diamond</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.15910045700867,50.7322623726454,0</coordinates>
+		</Point>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Placemark>
+</Document>
+</kml>
