@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Parish Church of St Mary the Virgin, Brighstone (Grade I Listed).kmz</name>
-	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<name>Church of St. Mary the Virgin.kmz</name>
 	<StyleMap id="msn_grn-diamond">
 		<Pair>
 			<key>normal</key>
@@ -24,6 +23,8 @@
 		<LabelStyle>
 			<color>ff0000ff</color>
 		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
@@ -41,6 +42,8 @@
 		<LabelStyle>
 			<color>ff0000ff</color>
 		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
@@ -48,26 +51,27 @@
 		</ListStyle>
 	</Style>
 	<Placemark>
-		<name>Parish Church of St Mary the Virgin, Brighstone (Grade I Listed)</name>
-		<description><![CDATA[<img style="max-width:500px;" src="files/brighstone_st_mary.jpg"><img style="max-width:500px;" src="files/unnamed.jpg">
+		<name>Church of St. Mary the Virgin</name>
+		<description><![CDATA[The Parish Church of St Mary the Virgin in Brighstone, Isle of Wight, is a historic Grade I listed building with origins dating back to the 12th century. Known for its medieval architecture, the church has been a place of worship for over 800 years and remains an important landmark in the village.
 
-The Parish Church of St Mary the Virgin in Brighstone, Isle of Wight, is a historic Grade I listed building with origins dating back to the 12th century. Known for its medieval architecture, the church has been a place of worship for over 800 years and remains an important landmark in the village.
+The church features Norman and Early English Gothic styles, with a tall square tower, stained glass windows, and an impressive nave. Inside, visitors can find historic memorials, intricate woodwork, and a peaceful churchyard that adds to its charm. Over the centuries, it has undergone renovations while preserving its medieval character.
 
-The church features Norman and Early English Gothic styles, with a tall square tower, stained glass windows, and an impressive nave. Inside, visitors can find historic memorials, intricate woodwork, and a peaceful churchyard that adds to its charm. Over the centuries, it has undergone renovations while preserving its medieval character.]]></description>
+<img style="max-width:500px;" src="files/brighstone_st_mary.jpg"><img style="max-width:500px;" src="files/unnamed.jpg">]]></description>
 		<LookAt>
-			<longitude>-1.346167288601097</longitude>
-			<latitude>50.66150568015099</latitude>
+			<longitude>-1.394592632263113</longitude>
+			<latitude>50.6424501319087</latitude>
 			<altitude>0</altitude>
-			<heading>-0.05901483023191313</heading>
-			<tilt>17.13434030203469</tilt>
-			<range>9175.632748915894</range>
+			<heading>-2.958163738241557e-09</heading>
+			<tilt>45.00000138638567</tilt>
+			<range>1000.217988082305</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
 		<styleUrl>#msn_grn-diamond</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-1.394592630159825,50.64244874552304,0</coordinates>
+			<coordinates>-1.394592632263113,50.6424501319087,0</coordinates>
 		</Point>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	</Placemark>
 </Document>
 </kml>
